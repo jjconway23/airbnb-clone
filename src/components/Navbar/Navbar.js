@@ -1,4 +1,4 @@
-import logo from "../images/airbnb-logo.png"
+import logo from "../../images/airbnb-logo.png"
 import "./Navbar.css"
 export default function Navbar(){
     return (
