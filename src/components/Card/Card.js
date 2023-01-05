@@ -1,19 +1,21 @@
 import "./Card.css";
-import heroImage from "../../images/photo-grid.png";
+import katie from "../../images/katie-zaferes.png";
+import star from "../../images/star.png";
 
 
 
 export default function Card(){
     return (
         <div className="card">
-            <img src="" />
-            <div>
-                <img src="" />
-                <span></span>
-                <span></span>
+            <img src={katie} className="card-image"/>
+            <div className="card-stats">
+                <img src={star} />
+                <span>5.0</span>
+                <span>(6) •</span>
+                <span>USA</span>
             </div>
-            <p></p>
-            <p></p>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p>From $136 / person</p>
 
         </div>
     )
