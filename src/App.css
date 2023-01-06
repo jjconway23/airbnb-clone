@@ -10,3 +10,9 @@ body{
 section{
     padding: 20px;
 }
+.grey{
+    color:#918e9b
+}
+.bold{
+    font-weight: bold;
+}
