@@ -3,7 +3,7 @@ import star from "../../images/star.png";
 
 
 
-export default function Card({img,rating,reviewCount,country,title,price}){
+export default function Card({img,rating,reviewCount,location,title,price}){
     return (
         <div className="card">
             <img src={img} className="card-image"/>
@@ -11,7 +11,7 @@ export default function Card({img,rating,reviewCount,country,title,price}){
                 <img className="card-star" src={star} />
                 <span>{rating}</span>
                 <span className="grey">({reviewCount}) • </span>
-                <span className="grey">{country}</span>
+                <span className="grey">{location}</span>
             </div>
             <p>{title}</p>
             <p><span className="bold">From ${price}</span> / person</p>
