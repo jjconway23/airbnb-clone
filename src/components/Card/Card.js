@@ -6,6 +6,7 @@ import star from "../../images/star.png";
 export default function Card({img,rating,reviewCount,location,title,price}){
     return (
         <div className="card">
+            <div className="card-badge">SOLD OUT</div>
             <img src={img} className="card-image"/>
             <div className="card-stats">
                 <img className="card-star" src={star} />
