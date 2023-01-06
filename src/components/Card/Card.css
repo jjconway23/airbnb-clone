@@ -1,10 +1,14 @@
 .card{
     width:175px;
     font-size: 12px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
 }
 .card-image{
     width: 100%;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
 .card-stats{
     display: flex;
@@ -18,4 +22,11 @@
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+}
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-price{
+    margin-top: auto;
 }
